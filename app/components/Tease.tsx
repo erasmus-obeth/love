@@ -42,7 +42,7 @@ export default function Tease() {
                 <textarea
                     value={text}
                     onChange={(e) => setText(e.target.value)}
-                    className="border block w-full h-24 p-3 rounded-lg text-black"
+                    className="border block w-full h-24 p-3 rounded-lg"
                 />
 
                 <button

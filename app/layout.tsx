@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import "./globals.css"
 import { Inter, Playfair_Display } from "next/font/google"
 
 const inter = Inter({ subsets: ["latin"] })
 const playfair = Playfair_Display({ subsets: ["latin"] })
+
+export const metadata: Metadata = {
+  title: "Deborah",
+  description: "Happy Birthday Deborah",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -18,7 +24,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 
 
-// import type { Metadata } from "next";
 // import "./globals.css";
 
 
