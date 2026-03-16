@@ -33,21 +33,21 @@ export default function Tease() {
                 className="space-y-6 w-full max-w-md"
             >
 
-                <h2 className="text-2xl mb-8">
+                <h2 className="text-2xl mb-8 text-gray-100 ">
                     One question before the gift
                 </h2>
 
-                <p>Tell me something you wish I knew</p>
+                <p className="text-gray-100 ">Tell me something you wish I knew</p>
 
                 <textarea
                     value={text}
                     onChange={(e) => setText(e.target.value)}
-                    className="border block w-full h-24 p-3 rounded-lg"
+                    className="border border-gray-100 block w-full h-24 p-3 rounded-lg text-gray-100 "
                 />
 
                 <button
                     onClick={saveText}
-                    className="px-6 py-3 bg-pink-600 rounded-xl w-full"
+                    className="px-6 py-3 bg-pink-600 rounded-xl w-full text-gray-100 "
                 >
                     Send
                 </button>

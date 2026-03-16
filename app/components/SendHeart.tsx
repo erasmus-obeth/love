@@ -40,7 +40,7 @@ export default function SendHeart() {
 
                     <a
                         href="https://wa.me/+2348129709392"
-                        className="px-6 py-3 bg-pink-500 rounded-xl"
+                        className="px-6 py-3 text-gray-100  bg-pink-500 rounded-xl"
                         target="_blank"
                     >
 

@@ -12,7 +12,7 @@ export default function Final() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.2 }} className="max-w-sm">
 
-                <h2 className="text-3xl mb-6">
+                <h2 className="text-3xl mb-6 text-gray-100 ">
 
                     The real gift
 

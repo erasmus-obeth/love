@@ -16,7 +16,7 @@ export default function Traits() {
             initial={{ opacity: 0, y: 350 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }} className="min-h-screen flex flex-col justify-center space-y-6">
-                <h2 className="text-center text-xl mb-8">What i Noticed About you</h2>
+            <h2 className="text-center text-xl mb-8 text-gray-100 ">What i Noticed About you</h2>
 
             {traits.map((t, i) => (
                 <motion.div
@@ -25,7 +25,7 @@ export default function Traits() {
                     className="p-6 rounded-3xl bg-white/5 backdrop-blur border border-white/10"
                 >
 
-                    <h3 className="text-xl mb-2">{t.title}</h3>
+                    <h3 className="text-xl text-gray-100 mb-2">{t.title}</h3>
                     <p className="text-gray-400">{t.text}</p>
 
                 </motion.div>

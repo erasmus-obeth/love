@@ -24,7 +24,7 @@ export default function Wish() {
 
         <section className="h-screen flex flex-col items-center justify-center text-center mt-20">
 
-            <h2 className="text-2xl mb-8">Make a birthday wish</h2>
+            <h2 className="text-2xl mb-8 text-gray-100 ">Make a birthday wish</h2>
 
             {!wish ?
 
@@ -40,7 +40,7 @@ export default function Wish() {
                         className="w-72 rounded-2xl shadow-xl"
                     />
 
-                    <span className="absolute top-50 left-28 text-6xl animate-bounce">⭐</span>
+                    <span className="absolute top-50 left-28 text-6xl animate-bounce text-gray-100 ">⭐</span>
                     <span className="absolute top-72 left-28  animate-bounce">tap me</span>
 
                 </div>

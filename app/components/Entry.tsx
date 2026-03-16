@@ -53,7 +53,7 @@ export default function Entry() {
             <Wish />
             <Tease />
             <Constellation />
-            <Voice />
+            {/* <Voice /> */}
             <SendHeart />
             <Final />
 
