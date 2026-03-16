@@ -29,7 +29,7 @@ export default function Entry() {
 
                 <button
                     onClick={() => setStart(true)}
-                    className="px-6 py-4 rounded-2xl bg-linear-to-r from-pink-500 to-purple-500 text-lg shadow-xl active:scale-95 transition animate-bounce w-1/2"
+                    className="px-6 py-4 rounded-2xl bg-linear-to-r from-pink-500 to-purple-500 text-lg shadow-xl active:scale-95 transition animate-bounce w-1/2 text-gray-100 "
                 >
 
                     Tap to begin

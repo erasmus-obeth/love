@@ -41,7 +41,7 @@ export default function Wish() {
                     />
 
                     <span className="absolute top-50 left-28 text-6xl animate-bounce text-gray-100 ">⭐</span>
-                    <span className="absolute top-72 left-28  animate-bounce">tap me</span>
+                    <span className="absolute top-72 left-28  animate-bounce text-gray-100 ">tap me</span>
 
                 </div>
 
