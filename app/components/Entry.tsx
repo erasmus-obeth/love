@@ -44,7 +44,7 @@ export default function Entry() {
 
     return (
 
-        <main className="overflow-x-hidden px-4">
+        <main className="overflow-x-hidden px-4  bg-black/80">
 
             <Hero />
             <Timeline />
