@@ -67,3 +67,11 @@ body {
 .animate-fadeIn {
   animation: fadeIn 2s ease forwards;
 }
+
+body {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 40px 0;
+}

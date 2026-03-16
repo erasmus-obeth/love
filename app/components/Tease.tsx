@@ -1,34 +1,77 @@
-import { motion } from "framer-motion"
+"use client"
+import {motion} from "framer-motion"
 
 export default function Tease() {
 
     return (
-        <section className="min-h-screen flex flex-col items-center justify-center text-center px-6">
+        // const  saveText = () => {
 
-            <h2 className="text-3xl mb-12">
-                One question before your gift
-            </h2>
+        // }
 
-            <p className="text-gray-300 mb-10">
-                Which one describes you best?
-            </p>
+        <section className="h-screen flex flex-col items-center justify-center text-center">
 
-            <div className="flex flex-col gap-4">
+           
 
-                <button className="px-6 py-3 bg-purple-600 rounded-lg hover:scale-105 transition">
-                    Trouble
+            <motion.div 
+                initial={{ opacity: 0, y: -100, x:-100 }}
+                animate={{ opacity: 1, y: 0, x:0 }}
+                transition={{ duration: 1.2 }} className="space-y-6">
+                <h2 className="text-2xl mb-8">
+
+                    One question before the gift
+                </h2>
+
+                <p>Tell me something you wish i knew</p>
+
+                <textarea name="wishiknew"  id="wishiknew" className="border block w-full h-24"></textarea>
+
+                <button 
+                // onClick={saveText}
+                className="px-6 py-3 bg-pink-600 rounded-xl w-1/2">
+                    Send
                 </button>
 
-                <button className="px-6 py-3 bg-pink-600 rounded-lg hover:scale-105 transition">
-                    Mysterious
-                </button>
-
-                <button className="px-6 py-3 bg-indigo-600 rounded-lg hover:scale-105 transition">
-                    Soft heart pretending to be tough
-                </button>
-
-            </div>
+            </motion.div>
 
         </section>
+
     )
+
 }
+
+
+
+// import { motion } from "framer-motion"
+
+// export default function Tease() {
+
+//     return (
+//         <section className="min-h-screen flex flex-col items-center justify-center text-center px-6">
+
+//             <h2 className="text-3xl mb-12">
+//                 One question before your gift
+//             </h2>
+
+//             <p className="text-gray-300 mb-10">
+//                 Which one describes you best?
+//             </p>
+
+//             <div className="flex flex-col gap-4">
+
+//                 <button className="px-6 py-3 bg-purple-600 rounded-lg hover:scale-105 transition">
+//                     Trouble
+//                 </button>
+
+//                 <button className="px-6 py-3 bg-pink-600 rounded-lg hover:scale-105 transition">
+//                     Mysterious
+//                 </button>
+
+//                 <button className="px-6 py-3 bg-indigo-600 rounded-lg hover:scale-105 transition">
+//                     Soft heart pretending to be tough
+//                 </button>
+
+//             </div>
+
+//         </section>
+//     )
+// }
