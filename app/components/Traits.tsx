@@ -16,6 +16,7 @@ export default function Traits() {
             initial={{ opacity: 0, y: 350 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }} className="min-h-screen flex flex-col justify-center space-y-6">
+                <h2 className="text-center text-xl mb-8">What i Noticed About you</h2>
 
             {traits.map((t, i) => (
                 <motion.div
